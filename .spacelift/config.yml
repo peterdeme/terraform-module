@@ -1,0 +1,3 @@
+tests:
+  - name: first test case
+    terraform_version: 1.2.1
