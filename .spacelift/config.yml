@@ -1,0 +1,9 @@
+version: "1"
+module_version: 0.2.0
+
+tests:
+  - name: With older TF
+    terraform_version: 1.2.9
+
+  - name: With new TF
+    terraform_version: 1.1.4
