@@ -1,3 +1,3 @@
 output "petname" {
-    value = random_password.pwd
+  value = random_password.pwd.id
 }
