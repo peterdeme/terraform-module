@@ -20,5 +20,5 @@ tests:
     
   - name: Newer TF 4
     id: newtf4
-    dependsOn: ["newtf1", "newtf2", "newtf3"]
+    depends_on: ["newtf1", "newtf3"]
     terraform_version: 1.1.4
