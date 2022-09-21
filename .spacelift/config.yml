@@ -16,7 +16,7 @@ tests:
     
   - name: Newer TF 3
     id: newtf3
-    depends_on: ["newtf4"] # circular
+    # depends_on: ["newtf4"] # circular
     terraform_version: 1.1.3
     
   - name: Newer TF 4
