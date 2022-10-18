@@ -1,3 +1,3 @@
 resource "random_password" "pwd" {
-  length = 10
+  length = 11
 }
