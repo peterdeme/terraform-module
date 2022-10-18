@@ -1,5 +1,5 @@
 version: "1"
-module_version: 0.2.4
+module_version: 0.2.5
 
 tests:
   - name: With older TF
@@ -12,6 +12,7 @@ tests:
     
   - name: Newer TF 2
     id: newtf2
+    depends_on: ["newtf1"]
     terraform_version: 1.1.2
     
   - name: Newer TF 3
