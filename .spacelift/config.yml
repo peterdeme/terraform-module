@@ -10,6 +10,7 @@ tests:
     id: newtf1
     depends_on: ["oldtf1"]
     terraform_version: 1.1.1
+    before_init: ["exit 1"]
     
   - name: Newer TF 2
     id: newtf2
