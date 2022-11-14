@@ -1,5 +1,5 @@
 version: "1"
-module_version: 0.2.7
+module_version: 0.2.8
 
 tests:
   - name: With older TF
