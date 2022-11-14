@@ -9,7 +9,7 @@ tests:
   # - name: Newer TF 1
   #   id: newtf1
   #   depends_on: ["oldtf1"]
-  #   terraform_version:  1.1.1
+  #   terraform_version:1.1.1
     
   # - name: Newer TF 2
   #   id: newtf2
