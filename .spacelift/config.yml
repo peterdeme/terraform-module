@@ -1,16 +1,14 @@
 version: "1"
-module_version: 0.2.0
+module_version: 0.3.0
 
 tests:
   - name: With older TF
     id: oldtf1
-    depends_on: [newtf1]
     terraform_version: 1.0.11
 
-  #- name: Newer TF 1
-  #  id: newtf1
-  #  depends_on: [oldtf1]
-  #  terraform_version: 1.1.1
+  - name: Newer TF 1
+    id: newtf1
+    terraform_version: 1.1.1
     
   # - name: Newer TF 2
   #   id: newtf2      
